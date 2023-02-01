@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "mobile": "789456",
+      "city": "karachi"
+    },
+    {
+      "id": 2,
+      "name": "ali",
+      "email": "ali@gmail.com",
+      "mobile": "321753",
+      "city": "toba tek singh"
+    }
+  ]
+}

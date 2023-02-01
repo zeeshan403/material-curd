@@ -1,0 +1,39 @@
+
+<div class="container tet">
+  
+    <div>
+      
+      <h1 style="color: blue;">♥ Update Detaile Form ♥</h1>
+  <div>
+  <mat-form-field appearance="outline" class="form-elements">
+      <mat-label>Name</mat-label>
+      <input matInput placeholder="enter name" [(ngModel)]="userrecord.name">
+    </mat-form-field>
+  </div>
+  
+  <div> 
+  <mat-form-field appearance="outline" class="form-elements">
+      <mat-label>Email</mat-label>
+      <input matInput placeholder="enter email" [(ngModel)]="userrecord.email">
+    </mat-form-field>
+  </div>
+  
+  <div>  
+  <mat-form-field appearance="outline" class="form-elements">
+      <mat-label>Mobile</mat-label>
+      <input matInput placeholder="enter mobile" [(ngModel)]="userrecord.mobile">
+    </mat-form-field>
+  </div>
+  
+    <div>
+  <mat-form-field appearance="outline" class="form-elements">
+      <mat-label>City</mat-label>
+      <input matInput placeholder="enter city" [(ngModel)]="userrecord.city">
+    </mat-form-field>
+    </div>
+      
+      <div>
+        <button mat-raised-button color="primary" (click)="updaterecord()">Update Record</button>
+      </div>
+    </div>
+  </div>
